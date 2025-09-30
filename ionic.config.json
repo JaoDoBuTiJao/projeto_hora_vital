@@ -1,0 +1,7 @@
+{
+  "name": "projeto_hora_vital",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
