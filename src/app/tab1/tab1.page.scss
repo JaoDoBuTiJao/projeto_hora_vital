@@ -1,0 +1,18 @@
+.cardTitle{
+  padding-bottom: 0;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+ion-item {
+  padding-top: 0px;
+  --padding-start: 2px;
+  --inner-padding-end: 0;
+}
+ion-title {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+ion-label p {
+  padding-left: 16px;
+}

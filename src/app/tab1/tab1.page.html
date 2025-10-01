@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Meus Lembretes
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -12,6 +12,53 @@
       <ion-title size="large">Tab 1</ion-title>
     </ion-toolbar>
   </ion-header>
+<ion-card>
+  <ion-card-header>
+    <ion-card-title class="cardTitle">Gripe Comum</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <ion-list>
+      <ion-item>
+        <ion-thumbnail slot="end">
+          <img src="../../assets/icon/horavital.png" />
+        </ion-thumbnail>
+        <div class="medicamentos">
+          <ion-label>
+            Dipirona 1G
+            <p><ion-icon name="time-outline"></ion-icon> 00:00 • 06:00 • 12:00 • 18:00</p>
+            <p><ion-icon name="calendar"></ion-icon> 5 Dias</p>
+          </ion-label>
+          <ion-label>
+            Neopiridin
+            <p><ion-icon name="time-outline"></ion-icon> 00:00 • 08:00 • 16:00</p>
+            <p><ion-icon name="calendar"></ion-icon> 5 Dias</p>
+          </ion-label>
+        </div>
+      </ion-item>
+    </ion-list>
+  </ion-card-content>
+</ion-card>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+<ion-card>
+  <ion-card-header>
+    <ion-card-title class="cardTitle">Anti Concepcional</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <ion-list>
+      <ion-item>
+        <ion-thumbnail slot="end">
+          <img alt="Silhouette of mountains" src="../../assets/icon/horavital.png" />
+        </ion-thumbnail>
+        <div>
+          <ion-label>
+            Alexa
+            <p><ion-icon name="time-outline"></ion-icon> 22 hrs</p>
+            <p><ion-icon name="calendar"></ion-icon> Uso Contínuo</p>
+          </ion-label>
+        </div>
+      </ion-item>
+    </ion-list>
+  </ion-card-content>
+</ion-card>
+
 </ion-content>

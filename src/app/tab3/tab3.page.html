@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 3
+      Histórico de lembretes
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,9 +9,61 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
+      <ion-title size="large">Tab 1</ion-title>
     </ion-toolbar>
   </ion-header>
+<ion-card>
+  <ion-card-header>
+    <ion-card-title class="cardTitle">Gripe Comum</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <ion-list>
+      <ion-item>
+        <ion-thumbnail slot="end">
+          <img src="../../assets/icon/horavital.png" />
+        </ion-thumbnail>
+        <div class="medicamentos">
+          <ion-label>
+            Dipirona 1G
+            <p><ion-icon name="time-outline"></ion-icon> 00:00 • 06:00 • 12:00 • 18:00</p>
+            <p><ion-icon name="calendar"></ion-icon> 30/09/2025</p>
+            <p><ion-icon name="calendar"></ion-icon> 04/10/2025</p>
+          </ion-label>
+          <ion-label>
+            Neopiridin
+            <p><ion-icon name="time-outline"></ion-icon> 00:00 • 06:00 • 12:00 • 18:00</p>
+            <p><ion-icon name="calendar"></ion-icon> 30/09/2025</p>
+            <p><ion-icon name="calendar"></ion-icon> 04/10/2025</p>
+            <p>Observação: Melhora em 5 dias</p>
+          </ion-label>
+        </div>
+      </ion-item>
+    </ion-list>
+  </ion-card-content>
+</ion-card>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+<ion-card>
+  <ion-card-header>
+    <ion-card-title class="cardTitle">Anti Concepcional</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <ion-list>
+      <ion-item>
+        <ion-thumbnail slot="end">
+          <img alt="Silhouette of mountains" src="../../assets/icon/horavital.png" />
+        </ion-thumbnail>
+        <div>
+          <ion-label>
+            Cerazzete
+            <p><ion-icon name="time-outline"></ion-icon> 22 horas</p>
+            <p><ion-icon name="calendar"></ion-icon> 24/10/2024</p>
+            <p><ion-icon name="calendar"></ion-icon> 01/10/2025</p>
+            <p>Observação: Troca de remédio</p>
+          </ion-label>
+        </div>
+      </ion-item>
+    </ion-list>
+  </ion-card-content>
+</ion-card>
+
 </ion-content>
